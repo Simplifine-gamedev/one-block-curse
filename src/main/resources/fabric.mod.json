@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "one-block-curse",
+  "version": "1.0.0",
+  "name": "One Block Curse",
+  "description": "One random common block type is secretly cursed each world. Breaking it may trigger random effects!",
+  "authors": ["ali77sina"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.orca.oneblockcurse.OneBlockCurse"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
